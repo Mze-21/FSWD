@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    margin: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
