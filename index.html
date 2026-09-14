@@ -1,59 +1,178 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Random Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
 
-    <h1>Welcome to My Random Page</h1>
+    <section class="student-profile">
+        <div class="profile-image">
+            <img src="student.jpg" alt="Student Image">
+        </div>
 
-    <p>This is a simple webpage created using HTML only.</p>
+        <div class="profile-info">
+            <h1>Syed Abdul Muhiz Hamdani</h1>
 
-    <h2>My Favorite Things</h2>
+            <h3>BS Computer Science</h3>
 
-  <ul>
-        <li>Programming</li>
-        <li>Music</li>
-        <li>Traveling</li>
-        <li>Gaming</li>
-    </ul>
+            <p>
+                I am a computer science student interested in
+                web development and programming. I enjoy learning
+                new technologies and creating useful applications.
+            </p>
 
-    <h2>My Daily Routine</h2>
+            <h3>My Skills</h3>
 
-    <ol>
-        <li>Wake up</li>
-        <li>Attend classes</li>
-        <li>Study programming</li>
-        <li>Relax</li>
-    </ol>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
 
-    <h2>Contact Me</h2>
+    <section class="projects-section">
+        <h2>My Projects</h2>
 
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
+        <div class="projects-container">
 
-        <br><br>
+            <div class="project-card">
+                <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+                    alt="Web Development Project"
+                    class="project-image web-image"
+                >
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+                <div class="project-info">
+                    <h3>Web Development Project</h3>
 
-        <br><br>
+                    <p>
+                        A responsive website created using
+                        HTML, CSS, and JavaScript.
+                    </p>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
+                    <button>View Project</button>
+                </div>
+            </div>
 
-        <br><br>
+            <div class="project-card">
+                <img
+                    src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600"
+                    alt="Database Project"
+                    class="project-image"
+                >
 
-        <input type="submit" value="Submit">
-    </form>
+                <div class="project-info">
+                    <h3>Database Project</h3>
 
-    <hr>
+                    <p>
+                        A database management system designed
+                        to store and manage information efficiently.
+                    </p>
 
-    <p>Thank you for visiting my webpage!</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600"
+                    alt="AI and Machine Learning Project"
+                    class="project-image"
+                >
+
+                <div class="project-info">
+                    <h3>AI/ML Project</h3>
+
+                    <p>
+                        A machine learning project that analyzes
+                        data and makes useful predictions.
+                    </p>
+
+                    <button>View Project</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+<section class="achievement-section">
+
+    <h2>My Achievements</h2>
+
+    <div class="achievement-card">
+
+        <span class="featured-badge">Featured</span>
+
+        <h3>Syed Abdul Muhiz Hamdani</h3>
+
+        <h4>Outstanding Web Development Project</h4>
+
+        <p>
+            Successfully completed a responsive web development
+            project using HTML, CSS, and JavaScript. This project
+            helped me improve my programming and problem-solving skills.
+        </p>
+
+        <p class="achievement-date">
+            Achievement Date: 15 August 2026
+        </p>
+
+    </div>
+
+</section>
+
+<section class="container my-5">
+
+    <h2 class="text-center mb-4">Student Dashboard</h2>
+
+    <div class="d-flex justify-content-between align-items-stretch flex-wrap gap-3">
+
+        <div class="card dashboard-card flex-fill">
+            <div class="card-body text-center">
+                <h5 class="card-title">Courses</h5>
+                <h2 class="dashboard-number">5</h2>
+                <p class="card-text">Enrolled Courses</p>
+                <button class="btn btn-primary">View Courses</button>
+            </div>
+        </div>
+
+        <div class="card dashboard-card flex-fill">
+            <div class="card-body text-center">
+                <h5 class="card-title">Assignments</h5>
+                <h2 class="dashboard-number">3</h2>
+                <p class="card-text">Pending Assignments</p>
+                <button class="btn btn-success">View Assignments</button>
+            </div>
+        </div>
+
+        <div class="card dashboard-card flex-fill">
+            <div class="card-body text-center">
+                <h5 class="card-title">Projects</h5>
+                <h2 class="dashboard-number">4</h2>
+                <p class="card-text">Completed Projects</p>
+                <button class="btn btn-warning">View Projects</button>
+            </div>
+        </div>
+
+        <div class="card dashboard-card flex-fill">
+            <div class="card-body text-center">
+                <h5 class="card-title">Attendance</h5>
+                <h2 class="dashboard-number">92%</h2>
+                <p class="card-text">Overall Attendance</p>
+                <button class="btn btn-info">View Attendance</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
 
 </body>
 </html>
